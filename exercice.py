@@ -74,19 +74,6 @@ def estimation_pi(iteration: int=5000):
 
     return len(x_inside_circle) / iteration * 4
 
-    # x = 1 - np.random.random(int(iteration))
-    # y = 1 - np.random.random(int(iteration))
-    # insideX, insideY = x[(x * x + y * y) <= 1], y[(x * x + y * y) <= 1]
-    # outsideX, outsideY = x[(x * x + y * y) > 1], y[(x * x + y * y) > 1]
-    #
-    # fig, ax = plt.subplots(1)
-    # ax.scatter(insideX, insideY, c='y', alpha=0.8)
-    # ax.scatter(outsideX, outsideY, c='g', alpha=0.8)
-    # ax.set_aspect('equal')
-    # fig.show()
-
-    # print(4 * (/ n))
-
 
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
@@ -95,4 +82,4 @@ if __name__ == '__main__':
     # print(coordinate_conversion(cartesian_coordinates=np.array([(15, 30), (-7, 10)])))
     # print(find_closest_index(np.array([10, 15, 20, 12, 13]), 11.1))
     # creat_plot()
-    print(estimation_pi(100000))
+    # print(estimation_pi(100000))
