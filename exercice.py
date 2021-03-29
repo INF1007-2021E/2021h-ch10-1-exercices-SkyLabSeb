@@ -76,10 +76,9 @@ def estimation_pi(iteration: int=5000):
 
 
 if __name__ == '__main__':
-    # TODO: Appelez vos fonctions ici
 
     # print(linear_values())
     # print(coordinate_conversion(cartesian_coordinates=np.array([(15, 30), (-7, 10)])))
     # print(find_closest_index(np.array([10, 15, 20, 12, 13]), 11.1))
     # creat_plot()
-    # print(estimation_pi(100000))
+    print(estimation_pi(100000))
